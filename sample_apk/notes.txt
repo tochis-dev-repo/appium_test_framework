@@ -1,0 +1,8 @@
+The test apk used is a simple android calculator obtained online.
+We will write tests for the following operations:
+Addition
+Subtraction
+Division
+Multiplication
+
+We will use Page Object Model to design the page model of the test UI 
