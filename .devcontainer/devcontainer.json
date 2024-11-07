@@ -1,0 +1,22 @@
+{
+  "name": "Appium Android Testing",
+  "image": "mcr.microsoft.com/devcontainers/java:17-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/android-sdk:1": {},
+    "ghcr.io/devcontainers/features/maven:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "postCreateCommand": "sdkmanager --install 'platform-tools' 'platforms;android-30' 'build-tools;30.0.3'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.java",
+        "vscjava.vscode-maven",
+        "dsznajder.es7-react-js-snippets"
+      ]
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
